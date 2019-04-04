@@ -1,3 +1,4 @@
 {
-    "appService.deploySubpath": "dist\\SolearyWeb"
+    "appService.deploySubpath": "dist\\SolearyWeb",
+    "appService.defaultWebAppToDeploy": "/subscriptions/c18987dc-f1d6-49fe-8dfb-33618f806c0e/resourceGroups/soleary/providers/Microsoft.Web/sites/solearyweb"
 }
