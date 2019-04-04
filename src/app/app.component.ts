@@ -2,9 +2,25 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  template: `
+  <div id="wrapper">
+  <app-sidebar></app-sidebar>
+
+  <!-- header -->
+  <app-header></app-header>
+
+  <!-- Begin Page Content -->
+  <div class="container-fluid">
+
+  <!-- routes will be rendered here -->
+  <router-outlet></router-outlet>
+
+  <!-- footer -->
+  <app-footer></app-footer>
+  </div>
+  </div>`,
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'SolearyWeb';
+  title = 'Stephen OLeary\'s Assessment for Learn on Demand Systems';
 }
